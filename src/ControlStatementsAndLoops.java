@@ -26,6 +26,7 @@ public class ControlStatementsAndLoops {
 //        System.out.println("After the for");
 
         //My work
+        //Count to 15 in increments of 5
 
         int i = 5;
         while (i <= 15) {
@@ -33,6 +34,7 @@ public class ControlStatementsAndLoops {
             i++;
         }
 
+        //Count to 100 in increments of 2
         System.out.println();
 
         int t = 0;
@@ -41,6 +43,7 @@ public class ControlStatementsAndLoops {
             t += 2;
         } while (t <= 100);
 
+        //Count from 100 to -10 in increments of 5
         System.out.println();
 
 
@@ -50,6 +53,7 @@ public class ControlStatementsAndLoops {
             x -= 5;
         } while (x >= -10);
 
+        //Squares
         System.out.println();
 
         long f = 2;
@@ -63,10 +67,12 @@ public class ControlStatementsAndLoops {
 
         // For Loop
 
+        //Count from 100 to -10 in increments of 5
         for (int a = 100; a >= -10; a -= 5) {
             System.out.println(a);
         }
 
+        //Squares
         System.out.println();
 
         for (long v = 2; v < 1000000; v *= v) {
