@@ -10,15 +10,15 @@ public class StringBasics {
 
         String message_b = "Check \"this\" out!, \"s inside of \"s!";
 
-            System.out.println(message_b);
+        System.out.println(message_b);
 
-          String message_c = "In windows, the main drive is usually C:\\";
+        String message_c = "In windows, the main drive is usually C:\\";
 
         System.out.println(message_c);
 
         String message_d = "I can do back slashes \\, and double back slashes \\\\, and the amazing triple back-slash \\\\\\!";
 
-                System.out.println(message_d);
+        System.out.println(message_d);
     }
 
 }
