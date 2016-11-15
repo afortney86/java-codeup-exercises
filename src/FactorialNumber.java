@@ -8,10 +8,12 @@ public class FactorialNumber {
     public static void main(String[] args) {
         String userInput = "n";
 
+        System.out.println("Welcome to the factorial calculator!");
+
         Scanner input = new Scanner(System.in);
         do {
             //Gives prompt
-            System.out.print("Enter a number to find the factorial of it ");
+            System.out.print("Enter a number bewteen 1 and 25 ");
 
             //Enter the times you want to run
             int number = input.nextInt();
