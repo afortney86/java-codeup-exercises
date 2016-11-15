@@ -13,7 +13,7 @@ public class FactorialNumber {
         Scanner input = new Scanner(System.in);
         do {
             //Gives prompt
-            System.out.print("Enter a number bewteen 1 and 25 ");
+            System.out.println("Enter a number bewteen 1 and 25");
 
             //Enter the times you want to run
             int number = input.nextInt();
