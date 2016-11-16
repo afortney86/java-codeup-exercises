@@ -1,10 +1,8 @@
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
-
 /**
  * Created by anthonyfortney on 11/14/16.
  */
 public class BasicArithmetic {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         System.out.println(addition(1, 1));
 
