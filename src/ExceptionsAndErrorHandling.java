@@ -16,9 +16,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/**
- * This source file is subject to the license that is bundled with this package in the file LICENSE.
- */
 
 public class ExceptionsAndErrorHandling {
     public static void main(String[] args) {
