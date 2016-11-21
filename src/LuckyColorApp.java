@@ -39,17 +39,17 @@ public class LuckyColorApp {
         int random = (int) Math.ceil(Math.random() * 6);
 
         if(random == 1) {
-            discount = Colors.RED.applyDiscount(payment);
+            discount = LuckyColor.RED.applyDiscount(payment);
         } else if(random == 2) {
-            discount = Colors.BLUE.applyDiscount(payment);
+            discount = LuckyColor.BLUE.applyDiscount(payment);
         } else if(random == 3) {
-            discount = Colors.YELLOW.applyDiscount(payment);
+            discount = LuckyColor.YELLOW.applyDiscount(payment);
         } else if(random == 4) {
-            discount = Colors.GREEN.applyDiscount(payment);
+            discount = LuckyColor.GREEN.applyDiscount(payment);
         } else if (random == 5) {
-            discount = Colors.PURPLE.applyDiscount(payment);
+            discount = LuckyColor.PURPLE.applyDiscount(payment);
         } else {
-            discount = Colors.PINK.applyDiscount(payment);
+            discount = LuckyColor.PINK.applyDiscount(payment);
         }
 
         discountInformation = outputDiscount(payment, discount);
