@@ -32,10 +32,11 @@ public class BattingStatistics {
         int numberOfAtBats;
         double battingAverage;
         double sluggingAverage;
+
         System.out.println("How many at bats?");
         numberOfAtBats = sc.nextInt();
         int[] atBats = new int[numberOfAtBats];
-        for (int i = 0; i  <atBats.length; i++) {
+        for (int i = 0; i  < atBats.length; i++) {
             atBats[i] = getBasesEarned(sc);
         }
         battingAverage = getBattingAverage(atBats);
@@ -81,3 +82,10 @@ public class BattingStatistics {
 
     }
 }
+
+/**
+ * <--Luis Solution -->
+ *
+ *
+ *
+ */
