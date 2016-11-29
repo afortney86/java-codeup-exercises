@@ -53,5 +53,32 @@ public class OOValidator {
         }
     }
 
+    public String getRequiredString(String prompt) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(prompt);
+        String response = sc.nextLine();
+        try {
+            if (!response.trim().equalsIgnoreCase(""))
+                return response;
+            else
+                throw new InputMismatchException();
+        }catch (InputMismatchException e) {
+            System.out.println("Error!  Cannot be blank.  Try again.");
+            return getRequiredString(prompt);
+        }
+    }
 
+    public String getChoiceString (String prompt, String s1, String s2) {
+        String userString = getRequiredString(prompt);
+        try {
+            if (!userString.equalsIgnoreCase(s1) && !userString.equalsIgnoreCase(s2)) {
+                throw new InputMismatchException();
+            }
+            return userString;
+        } catch (InputMismatchException e) {
+            System.out.println("Error! You must enter one of the chosen strings.  Try again.");
+            return getChoiceString(prompt, s1, s2);
+        }
+    }
 }
+
