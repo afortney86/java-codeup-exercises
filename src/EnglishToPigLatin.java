@@ -11,8 +11,6 @@
 //                If a word starts with a consonant, move all of the consonants that appear before the first vowel to the end of the word, then add “ay” to the end of the word.
 //        Treat “y” as a consonant.
 
-    import java.util.Scanner;
-
 public class EnglishToPigLatin {
     public static void main(String[] args){
         String vowel = "aeiou";

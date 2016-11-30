@@ -1,5 +1,3 @@
-import java.util.Collections;
-import java.util.Comparator;
 
 /**
  * Created by anthonyfortney on 11/28/16.
@@ -26,5 +24,4 @@ public class Student implements Comparable<Student> {
         this.score = score;
     }
 
-//    Collections.sort(students, );
 }
