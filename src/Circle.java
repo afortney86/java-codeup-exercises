@@ -1,14 +1,19 @@
-
-
 /**
  * Created by anthonyfortney on 11/30/16.
+ *
  *  To find circumference: C=2piR
+ *  To find area: A=PiR^2
  */
-public class CircumferenceAndArea {
 
-    public CircumferenceAndArea(double radius){
+import java.util.Scanner;
+
+public class Circle {
+    double radius;
+
+    public Circle(double radius) {
 
     }
+
 
     public double getCircumference(){
 
@@ -25,10 +30,13 @@ public class CircumferenceAndArea {
     public String getFormattedArea(){
 
     }
+
     private String formatNumber(double x){
 
     }
+
     public static int getObjectCount(){
 
     }
+
 }
