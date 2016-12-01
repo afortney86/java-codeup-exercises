@@ -7,12 +7,5 @@ package RPSGame;
  * Created by anthonyfortney on 12/1/16.
  */
 public class ComputerPlayer extends Player{
-    int cpuChoice;
 
-
-    public int getCpuChoice(){
-        cpuChoice = (int) (Math.random() * 3);
-        return cpuChoice;
-
-    }
 }

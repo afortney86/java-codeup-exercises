@@ -1,5 +1,7 @@
 package RPSGame;
 
+import java.util.Scanner;
+
 /**
  * Created by anthonyfortney on 12/1/16.
  */
@@ -17,6 +19,12 @@ package RPSGame;
 
 public class RoshamboApp {
     public static void main(String[] args) {
-        ComputerPlayer.
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("What is your name?");
+
+
+
     }
+
 }
