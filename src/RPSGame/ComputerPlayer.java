@@ -1,7 +1,18 @@
 package RPSGame;
 
+//Create and name two player classes (subclasses of Player).
+//The other player should randomly select rock, paper, or scissors (a 1 in 3 chance of selecting each).
+
 /**
  * Created by anthonyfortney on 12/1/16.
  */
-public class ComputerPlayer {
+public class ComputerPlayer extends Player{
+    int cpuChoice;
+
+
+    public int getCpuChoice(){
+        cpuChoice = (int) (Math.random() * 3);
+        return cpuChoice;
+
+    }
 }

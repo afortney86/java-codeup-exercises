@@ -8,4 +8,5 @@ package RPSGame;
  */
 public class RockPlayer extends Player {
 
+
 }
