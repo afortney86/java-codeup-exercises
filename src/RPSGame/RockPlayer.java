@@ -8,5 +8,8 @@ package RPSGame;
  */
 public class RockPlayer extends Player {
 
-
+    @Override
+    public String generateRoshambo() {
+        return Roshambo.ROCK.toString();
+    }
 }
