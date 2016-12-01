@@ -1,3 +1,5 @@
+package CircleAppPKG;
+
 /**
  * Created by anthonyfortney on 11/30/16.
  *
@@ -8,8 +10,7 @@
 public class Circle {
 
     double radius = 0;
-    double circumference = 0;
-    double area = 0;
+    int circleCount = 0;
 
 
     public Circle(double radius) {
@@ -18,23 +19,23 @@ public class Circle {
 
 
     public double getCircumference(){
-        this.circumference = 2 * (Math.PI * radius);
-        return circumference;
+        return 2 * (Math.PI * radius);
+
 
     }
 
     public String getFormattedCircumference(){
-        String formatted_C_Output = String.format("%.2f", circumference);
+        String formatted_C_Output = String.format("%.2f");
         return formatted_C_Output;
     }
 
     public double getArea(){
-        this.area = Math.PI * (radius * radius);
-        return area;
+        return Math.PI * (radius * radius);
+
     }
 
     public String getFormattedArea(){
-        String formatted_A_Output = String.format("%.2f", area);
+        String formatted_A_Output = String.format("%.2f");
         return formatted_A_Output;
     }
 
