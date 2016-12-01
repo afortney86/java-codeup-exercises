@@ -9,6 +9,12 @@ package RPSGame;
  */
 
 public class Player {
-    String name;
+
+    protected Roshambo choice;
+
+    public String generateRoshambo() {
+        return null;
+    }
+
 
 }
