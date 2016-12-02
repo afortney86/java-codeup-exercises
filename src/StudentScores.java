@@ -19,7 +19,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class StudentScores {
+public class  StudentScores {
     public static void main(String[] args) {
         OOValidator validator = new OOValidator();
         ArrayList<Student> students = new ArrayList();

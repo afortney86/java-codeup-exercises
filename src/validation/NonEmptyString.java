@@ -10,14 +10,14 @@ public class NonEmptyString implements Validator {
     public boolean isValid(Object instance) {
         if (instance instanceof String){
             ((String) instance).trim().equalsIgnoreCase("");
-            return true;
-        }else{
             return false;
+        } else {
+            return true;
         }
     }
 
     @Override
     public String errorMessage() {
-        return "String cannot be empty";
+        return "String cannot be empty.";
     }
 }

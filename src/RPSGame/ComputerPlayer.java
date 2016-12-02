@@ -1,7 +1,7 @@
 package RPSGame;
 
-//Create and name two player classes (subclasses of Player).
-//The other player should randomly select rock, paper, or scissors (a 1 in 3 chance of selecting each).
+
+//randomly select rock, paper, or scissors (a 1 in 3 chance of selecting each).
 
 /**
  * Created by anthonyfortney on 12/1/16.
